@@ -15,12 +15,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 24px;
-  color: #666;
+ /* color: #666;*/
+ color: black;
   background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #333;
+  /*color: #333;*/
+  color: #718FC8;
 }
 
 h2 {
@@ -46,7 +48,8 @@ h3 {
 .parallax h4,
 .parallax h5,
 .parallax h6 {
-  color: #fff;
+  /*color: #fff;*/
+  color: #718FC8;
 }
 
 .parallax input[type="text"],
@@ -185,7 +188,10 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.7);
+  /*background: rgba(0,0,0,.7);*/
+  background:rgba(0,0,0,.1);
+
+  
 }
 
 .carousel-fade .carousel-inner .active {
@@ -261,7 +267,8 @@ section {
 }
 
 .navbar-right li a {
-  color: #fff;
+ /* color: #fff;*/
+  color: black;/* cor da fonte menu*/
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -270,7 +277,8 @@ section {
 }
 
 .navbar-right li.active a {
-  background-color: rgba(0,0,0,.2);
+  /*background-color: rgba(0,0,0,.2);*/
+  background-color: #718FC8;
 }
 
 .navbar-brand h1 {
@@ -323,7 +331,10 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
- background-image: url(../images/about-bg.jpg);
+ background-image: url(../images/twitter-bg.jpg);
+ /*background-color: #718FC8;*/
+
+ 
   padding: 60px 0;
   
 }
@@ -861,7 +872,8 @@ section {
 }
 
 #contact-us {
-  background-image:url(../images/contact-bg.jpg);
+  /*background-image:url(../images/contact-bg.jpg);*/
+ background-color:rgba(0,0,0,.1);
   padding-bottom: 90px; 
 }
 
@@ -871,10 +883,15 @@ section {
 
 .form-control {
   background-color: transparent;
-  border-color: rgba(255,255,255,.1);
+ /* border-color: rgba(255,255,255,.1);*/
+ border-color: #718FC8;
   height: 50px;
   border-radius: 0;
   box-shadow: none;
+
+ 
+
+
 }
 
 textarea.form-control {
@@ -979,5 +996,11 @@ ul.address {
 }
 
 /*Presets*/
+
+
+/*------ meu Css---------------------------------*/
+
+
+
 
 
