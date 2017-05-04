@@ -63,9 +63,12 @@ h3 {
 .parallax textarea,
 .parallax textarea:hover {
   font-weight: 300;
-  color: #fff;
+  color: white;
 }
-
+.parallax2 textarea:hover {
+  font-weight: 300;
+  color: black;
+}
 .btn {
   border: 0;
   border-radius: 0;
@@ -179,6 +182,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 2037px;
+
 }
 
 .carousel-fade .carousel-inner .item:after {
@@ -331,7 +335,7 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
- background-image: url(../images/twitter-bg.jpg);
+ /*background-image: url(../images/twitter-bg.jpg);*/
  /*background-color: #718FC8;*/
 
  
@@ -341,7 +345,7 @@ section {
 
 #about-us h2 {
   margin-top: 0;
-  color: #fff;
+  color:#718FC8;
 }
 
 #about-us .lead {
@@ -596,7 +600,7 @@ section {
 **************************/
 #features {
   text-align: center;
-  background-image: url(../images/features-bg.jpg);
+  background-image: url(../images/twitter-bg.jpg);
 }
 
 #features i {
@@ -920,7 +924,7 @@ ul.address {
 }
 
 .contact-info ul li a {
-  color: #fff;
+  color: black;
 }
 
 .btn-submit {
@@ -1003,4 +1007,6 @@ ul.address {
 
 
 
-
+#corP{
+  color: black;
+}
