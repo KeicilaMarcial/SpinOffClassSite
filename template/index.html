@@ -20,12 +20,12 @@
   <![endif]-->
   
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
- <!-- <link rel="shortcut icon" href="./images/favicon.ico">-->
+  <link rel="shortcut icon" href="./images/logo/spinOff.svg">
 </head><!--/head-->
 
 <body>
 
-  <!--.preloader-->
+  <!--.preloader
   <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
   <!--/.preloader-->
 
@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-              <h1><img class="img-responsive" src="images/logo/spinOff.svg" alt="logo" width="120"></h1>
+              <h1><img class="img-responsive" src="images/logo/spinOff.svg" alt="logo" width="100"></h1>
           </a>                    
         </div>
         <div class="collapse navbar-collapse">
@@ -49,8 +49,8 @@
             <li class="scroll active"><a href="#home">Home</a></li>
             <!--<li class="scroll"><a href="#services">Nossos Serviços</a></li>--> 
             <li class="scroll"><a href="#about-us">Quem Somos</a></li>                     
-            <li class="scroll"><a href="#features">Cadastro</a></li>
-            <li class="scroll"><a href="#team">Time</a></li>
+            <li class="scroll"><a href="#features">Cadastre-se</a></li>
+            <li class="scroll"><a href="#services">Time</a></li>
             <!--<li class="scroll"><a href="#blog">Blog</a></li>-->
             <li class="scroll"><a href="#contact">Contato</a></li>       
           </ul>
@@ -58,15 +58,23 @@
       </div>
     </div><!--/#main-nav-->
     
-     <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+         <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="item active" style="background-image: url(images/logo/spinOff.svg)">
           <!--<div class="caption">
-            <h1 class="animated fadeInLeftBig"> <span></span></h1>
-            <p class="animated fadeInRightBig"></p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">Start now</a>
+            <h1 class="animated fadeInLeftBig">Welcome to <span>Oxygen</span></h1>
+            <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
           </div>-->
         </div>
+        <!--<div class="item"  id="banner" style="background-image: url(images/carousel/f7.jpg)" >
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Conecte-se com</span><span> o mundo </span></h1>
+            
+          </div>
+        </div>-->
+        
+      <!--  <div class="item"  id="banner" style="background-image: url(images/carousel/f8.png)"> </div> 
       </div>
       <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
       <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
@@ -74,6 +82,7 @@
       <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
 
     </div><!--/#home-slider-->
+    <!--/#home-slider-->
   </header><!--/#home-->
  <!-- <section id="services">
     <div class="container">
@@ -153,8 +162,13 @@
         <div class="col-sm-6">
           <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
               <h2><strong>Quem Somos</strong></h2>
-              <p id="corP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p id="corP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p id="corP"> Somos compromissados em Fazer com você atinja a fluência que sempre quis.</p><br><br>
+               <h3><strong>Spin off Class</strong></h3>
+              <p id="corP">Somos uma rede social que tem como principal objetivo desenvolver a fluência de nossos usuarios, através de parcerias com escolas tanto no ambito nacional, quanto internacional, promovendo uma troca de conhecimentos entre os alunos.
+              A princípil, com o foco voltado para os idiomas português e inglês, proporcionamos aos nossos usuarios a oportunidade de exercitar online, o que seria uma continuação das suas  aulas de converssassão através de chamadas de video e texto com limite de caracteres para forçar os mesmos a praticarem a fala, que é a habilidade desenvolvida com maior dificuldade entre os alunos.
+              Converse com outros estudantes como você, de outra parte do mundo,  e faça a sua rede de amigos,ajude o proximo a desenvolver melhores habilidades em português e recebe como retorno melhorar a sua proeficiencia em inglês.
+
+              </p>
             
           </div>
         </div>
@@ -177,12 +191,17 @@
                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" name="nome" class="form-control" placeholder="Nome" required="required">
+                     <input type="text" name="nome" class="form-control" placeholder="* Nome" required="required">
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                      <input type="email" name="email" class="form-control" placeholder="* Email" required="required">
+                    </div>
+                  </div>
+                   <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="escola" class="form-control" placeholder="Frequesta Alguma escola de Inglês? Se sim, Qual?" >
                     </div>
                   </div>
                 </div>                        
@@ -194,7 +213,7 @@
       </div>
     </div>
   </section><!--/#features-->
-  <section id="team">
+  <!--<section id="team">
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
@@ -218,10 +237,10 @@
                 <ul>
                   <li><a class="facebook" href="https://www.facebook.com/francisco.soccol?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
                  <!-- <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+      <!--            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
                  <!-- <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
                   <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>-->
-                </ul>
+          <!--      </ul>
               </div>
             </div>
           </div>
@@ -239,10 +258,10 @@
                 <ul>
                     <li><a class="facebook" href="https://www.facebook.com/keicila.marcial" target="black"><i class="fa fa-facebook"></i></a></li>
                  <!-- <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+             <!--     <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
                  <!-- <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
                   <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>-->
-                </ul>
+              <!--  </ul>
               </div>
             </div>
           </div>
@@ -260,39 +279,91 @@
                 <ul>
                     <li><a class="facebook" href="https://www.facebook.com/luiz.guilhermerm?fref=ts" target="black"><i class="fa fa-facebook"></i></a></li>
                  <!-- <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                 <!-- <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
                  <!-- <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
                   <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>-->
-                </ul>
+               <!-- </ul>
               </div>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/4.jpg" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Raquel Loyola</h3>
-                <h4>Support Manager</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-              </div>
-              <div class="social-icons">
-                <ul>
-                    <li><a class="facebook" href="https://www.facebook.com/raquelcristina.loyola?fref=ts" target="black"><i class="fa fa-facebook"></i></a></li>
-                 <!-- <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <!--<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>-->
-                </ul>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>            
     </div>
   </section><!--/#team-->
 
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Time</h2>
+           
+          </div>
+        </div> 
+      </div>
+      <div class="text-center our-services">
+        <div class="row">   
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+          <div class="member-image">
+                <img  id="pic" class="img-responsive" src="images/team/1.jpg" alt="">
+              </div> 
+            <div class="service-info">
+              <div class="member-info">
+                <h3>Francisco Soccol</h3>
+                <h4>Desenvolvedor</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="member-image">
+                <img id="pic" class="img-responsive" src="images/team/2.jpg" alt="">
+              </div> 
+            <div class="member-info">
+              <h3>Keicila Marcial</h3>
+                <h4>CEO &amp; Desenvolvedora</h4>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="member-image">
+                <img id="pic" class="img-responsive" src="images/team/3.jpg" alt="">
+              </div> 
+           <div class="member-info">
+               <h3>Luiz Guilherme</h3>
+                <h4>Marketing &amp; Vendas</h4>
+               
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#services-->
+  <section id="twitter" class="parallax">
+    <div>
+      <!--<a href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="twitter-icon text-center">
+             <!-- <i class="fa fa-twitter"></i>-->
+              <!--<h4>Themeum</h4>-->
+            </div>
+            
+                <div class="item">                                
+                  <h2 id="corB">Você não precisa viajar para estar fora do seu país</h2>
+                  <h4 id="corB">Spin Off Class</h2>
+                  <h5 id="corB">Learning has no limits</h2>
+                </div>
+                                    
+            </div>                    
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#twitter-->
   <section id="contact">
     <!--<div id="google-map" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div>-->
     <div id="contact-us" class="parallax2">
@@ -300,7 +371,7 @@
         <div class="row">
           <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <h2>Contato</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+            <p>Em caso de qualquer dúvida, compartilhe conosco</p>
           </div>
         </div>
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -332,7 +403,7 @@
             </div>
             <div class="col-sm-6">
               <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <p>Entre em contato por telefone, E-mail, ou escreva-nos uma mensagem através site.</p>
                 <ul class="address">
                   <li><i class="fa fa-map-marker"></i> <span> Address:</span> 2400 South Avenue A </li>
                   <li><i class="fa fa-phone"></i> <span> Phone:</span> +928 336 2000  </li>
@@ -352,7 +423,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <p>&copy; 2017 |Spin|Off|Class.</p>
+            <p>&copy; 2017 Todos os direitos reservados.</p>
           </div>
           <div class="col-sm-6">
             <!--<p class="pull-right">Todos os direitos<a href="http://www.themeum.com/">Reservados</a></p>-->

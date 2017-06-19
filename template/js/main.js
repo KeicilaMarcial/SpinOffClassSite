@@ -6,13 +6,15 @@ jQuery(function($) {
 		preloader.remove();
 	});
 
-	//#main-slider
+	//#main-slider altura da div do banner
 	var slideHeight = $(window).height();
-	$('#home-slider .item').css('height',slideHeight);
+	$('#home-slider .item').css('height','524px');
 
 	$(window).resize(function(){'use strict',
-		$('#home-slider .item').css('height',slideHeight);
+		$('#home-slider .item').css('height','525px');
 	});
+
+	
 	
 	//Scroll Menu
 	$(window).on('scroll', function(){
