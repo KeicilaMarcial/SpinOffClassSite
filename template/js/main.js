@@ -14,8 +14,8 @@ jQuery(function($) {
 		$('#home-slider .item').css('height','525px');
 	});
 
-	
-	
+
+
 	//Scroll Menu
 	$(window).on('scroll', function(){
 		if( $(window).scrollTop()>slideHeight ){
@@ -24,13 +24,13 @@ jQuery(function($) {
 			$('.main-nav').removeClass('navbar-fixed-top');
 		}
 	});
-	
+
 	// Navigation Scroll
 	$(window).scroll(function(event) {
 		Scroll();
 	});
 
-	$('.navbar-collapse ul li a').on('click', function() {  
+	$('.navbar-collapse ul li a').on('click', function() {
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
 		return false;
 	});
@@ -50,7 +50,7 @@ jQuery(function($) {
 			if ( winTop > contentTop[i] - rangeTop ){
 				$('.navbar-collapse li.scroll')
 				.removeClass('active')
-				.eq(i).addClass('active');			
+				.eq(i).addClass('active');
 			}
 		})
 	};
@@ -59,12 +59,12 @@ jQuery(function($) {
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
 		return false;
 	});
-	
+
 	//Initiat WOW JS
 	new WOW().init();
 	//smoothScroll
 	smoothScroll.init();
-	
+
 	// Progress Bar
 	$('#about-us').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
 		if (visible) {
@@ -160,6 +160,5 @@ jQuery(function($) {
 		});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize_map);
-	
-});
 
+});

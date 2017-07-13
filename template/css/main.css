@@ -339,12 +339,7 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
- /*background-image: url(../images/twitter-bg.jpg);*/
- /*background-color: #718FC8;*/
-
-
   padding: 60px 0;
-
 }
 
 #about-us h2 {
@@ -359,6 +354,14 @@ section {
 
 #about-us h1 {
   margin-bottom: 30px;
+}
+
+#about-us .about-image {
+  background-repeat: no-repeat;
+  background-size:contain;
+  /*height: 1000px;
+  width: 100%;*/
+  background: url(../images/spin03.png);
 }
 
 .progress{
@@ -680,8 +683,7 @@ section {
 ********Twitter CSS*******
 **************************/
 #twitter {
-  /*background-image: url(../images/twitter-bg.jpg);*/
-  background-image: url(../images/twitter-bg.jpg);
+  background-image: url(../images/spin02.jpg);
 }
 
 #twitter > div {
